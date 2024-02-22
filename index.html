@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #a8d4b8;
+        }
+
+        /* * {
+            border: 1px solid rgb(0, 0, 0);
+        } */
+        .yinying {
+            box-shadow: rgb(0 0 0 /20%) 0px 2px 1px -1px,
+                rgb(0 0 0 /14%) 0px 1px 1px 0px,
+                rgb(0 0 0 /12%) 0px 1px 3px 0px;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .baise {
+            background-color: #f0f0f0;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .row {
+            flex-direction: row;
+        }
+
+        .center {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mg8 {
+            margin: 8px;
+        }
+
+        .mgr8 {
+            margin-right: 8px;
+        }
+
+        .mgt8 {
+            margin-top: 8px;
+        }
+
+        .mgt2 {
+            margin-top: 2px;
+        }
+
+        .fla {
+            font-family: "得意黑", "黑体", sans-serif
+        }
+
+        .flh {
+            font-family: "思源黑体 Medium", "黑体", sans-serif
+        }
+
+        .fla1 {
+            color: white;
+        }
+
+        /*过度效果*/
+        .botton:hover {
+            background-color: blue;
+            color: white;
+            transition: background-color 0.5s ease;
+        }
+
+
+        /* 添加鼠标过渡效果 */
+        .yinyin:hover {
+            transform: scale(1.1);
+        }
+
+        /*删除引用下滑线*/
+        .no-underline {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 200px;z-index: 2;" class=" baise yinying ">
+        <!--头像栏-->
+        <div style="height: 50px; border-radius: 10px;
+            align-items: center;
+            justify-content: start;" class=" flex mg8 yinying botton row">
+            <!--图像-->
+            <div style="background-color: blue;border-radius: 10px 1px 1px 10px;height: 50px;">
+                <div style="margin-left: 12px;margin-top: 5px;"><img src="未标题-1_画板 1.png" height="40px" width="40px" ;
+                        alt="logo"></img>
+                </div>
+            </div>
+            <!--字体-->
+
+            <div style="align-items: end;margin-left: 20px;" class="fla flex column  ">
+                <!--上字-->
+                <div>
+                    <div style="font-size: 18px ;width: 45px;" class="">小圆猴</div>
+                </div>
+                <!--下拼-->
+                <div>
+                    <div style="font-size: 10px;width: 45px" class="">xiaoyuanho</div>
+                </div>
+                </di'v>
+            </div>
+            <!--图案-->
+            <div style="background-color: blue; height: 50px; width: 50px;margin-left: 20px;
+            justify-content: center;
+            
+            border-radius: 1px 10px 10px 1px;" class=" flex ">
+                <div style="width: 2px;font-size: 12px;" class="fla fla1 yinying">
+                    <div style="margin-top: 2px;margin-left: -2px;">花朵们</div>
+                </div>
+            </div>
+        </div>
+        <!--导航栏-->
+        <div>
+            <!--导航数据-->
+            <div style="height: 40px" class="baise  yinying mgt2 center flex fla botton">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex fla">
+                <!--台州学院引用-->
+                <div style="font-size: 20px;">
+                    <a href="https://sso.tzc.edu.cn" style="color: black;" class="no-underline ">台州学院教务系统</a>
+                </div>
+            </div>
+            <!--蓝色分界线-->
+            <div style="height: 4px ;background-color: blue;" class="baise  yinyingcenter flex fla">
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">表白墙</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+            <div style="height: 40px" class="baise  yinying mgt2 center flex flh">
+                <div style="font-size: 20px;">首页</div>
+            </div>
+        </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex1 flex column">
+        <!--头部栏-->
+        <div style="height: 60px;z-index: 1;border-radius: 0 0 10px 0 ;bottom: 0px double ;" ; class="baise yinying ">
+        </div>
+        <!--内容区-->
+        <div style="overflow: auto;" class="flex1 flex">
+            <!--左区-->
+            <div style="flex:3;" class="flex column mg8">
+                <!--数据区-->
+                <div class="flex">
+                    <!--数据块-->
+                    <div style="height: 100px" class="flex1 baise mgr8 yinying"></div>
+                    <div style="height: 100px" class="flex1 baise mgr8 yinying"></div>
+                    <div style="height: 100px" class="flex1 baise mgr8 yinying"></div>
+                    <div style="height: 100px" class="flex1 baise yinying"></div>
+                </div>
+                <!--列表区-->
+                <div class="flex column">
+                    <!--列表项-->
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                    <div style="height: 160px" class="baise mgt8 yinying"></div>
+                </div>
+            </div>
+            <!--右区-->
+            <div style="flex:1;" class="flex column mgr8 mgt8">
+                <!--提示区-->
+                <div style="height: 150px;" class="baise yinying"></div>
+                <!--消息区-->
+                <div style="height: 300px;" class="baise mgt8 yinying"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
